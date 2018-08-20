@@ -25,7 +25,7 @@ libraryDependencies ++= Seq(
   "org.apache.spark" %% "spark-sql" % "2.3.0",
   "com.datastax.spark" %% "spark-cassandra-connector" % "2.3.0",
   "com.datastax.spark" %% "spark-cassandra-connector-embedded" % "2.3.0" % Test,
-  "org.apache.cassandra" % "cassandra-all" % "3.2" % "test",
+  "org.apache.cassandra" % "cassandra-all" % "3.2" % Test,
   "com.holdenkarau" %% "spark-testing-base" % "2.3.0_0.10.0" % Test,
   "org.scalatest" %% "scalatest" % "3.0.1" % Test,
   "org.scalacheck" %% "scalacheck" % "1.10.0" % Test
