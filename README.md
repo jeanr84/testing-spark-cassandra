@@ -3,14 +3,14 @@
 The goal of this project is to present on a simple use case how to quickly test a Spark job based on Cassandra data 
 without installing and configuring a Spark or a Cassandra cluster.
 
-###Versions
+### Versions
 
 * Scala : 2.11.12
 * SBT : 1.2.1
 * Spark : 2.3.0
 * Cassandra : 3.2
 
-###Build
+### Build
 
 Here is the list of the dependencies used to build this project
 
@@ -96,7 +96,7 @@ We want to have as result this DataFrame
 
 ```
 
-###Test
+### Test
 
 This project contains only one test using the embedded Cassandra and the function from spark-testing-base to compare 
 the expected DataFrame with the result from the `joinTable()` function
